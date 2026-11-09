@@ -1,0 +1,23 @@
+# Python 3.12+
+# Versiones fijadas a propósito (reproducibilidad y seguridad de la cadena de suministro).
+
+# Orquestación
+langgraph==1.2.20
+langchain==1.4.9
+langchain-core==1.7.6
+
+# Acceso a modelos vía Vercel AI Gateway
+langchain-openai==1.7.4
+langchain-anthropic==1.7.10
+
+# Herramientas del Investigador
+langchain-tavily==0.2.18
+yfinance==1.8.0
+
+# Cómputo del Analista
+pandas==3.1.1
+numpy==2.5.4
+
+# Configuración y validación
+python-dotenv==1.2.4
+pydantic==2.14.3

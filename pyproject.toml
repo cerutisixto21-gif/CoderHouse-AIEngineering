@@ -1,0 +1,4 @@
+[tool.pytest.ini_options]
+# Permite hacer "from app.state import ..." desde los tests, ejecutando pytest en la raíz del repo.
+pythonpath = ["."]
+testpaths = ["tests"]
